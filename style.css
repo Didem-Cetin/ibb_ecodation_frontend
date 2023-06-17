@@ -1,4 +1,118 @@
-body{
-    font-family: 'Montserrat', sans-serif;
+/* 
 
+Project : One Page
+Author  : Didem Çetin
+Date    : 14 /June /2023
+Version : v.1
+
+*/
+
+/*#########################################*/
+
+/*  Root */
+
+/*#########################################*/
+
+/* Common Property */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  position: relative;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img:hover {
+  opacity: 0.9;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0, 8);
+  transition: 3s all;
+  cursor: pointer;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+.my_clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* my special size */
+
+.fSize1 {
+  font-size: 1rem;
+  /* html in içindeki 15*1=15px */
+}
+.fSize2 {
+  font-size: 2rem;
+  /* html in içindeki 15*2=30px */
+}
+.fSize3 {
+  font-size: 3rem;
+  /* html in içindeki 15*3=45px */
+}
+.fSize4 {
+  font-size: 4rem;
+  /* html in içindeki 15*4=60px */
+}
+
+/* Line-clamp */
+
+.line-clamp5 {
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+.line-clamp8 {
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+.line-clamp10 {
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+/*#########################################*/
+
+/*  HEADER  */
+
+header {
+  background-image: url(./img/header.jpg);
+  text-shadow: 2px 2px 2px red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+  height: 89.7vh;
+  padding-top: 4rem;
 }
