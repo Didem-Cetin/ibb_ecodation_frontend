@@ -21,3 +21,12 @@ git log
 git checkout commitID
 git clone URL 
 git pull 
+
+
+``` 
+git stash
+git stash save "benim_stash"
+git stash list
+git stash pop
+git stash drop stash@{0}  silmek için kendimiz.
+
