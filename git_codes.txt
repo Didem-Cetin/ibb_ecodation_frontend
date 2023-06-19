@@ -30,3 +30,8 @@ git stash list
 git stash pop
 git stash drop stash@{0}  silmek için kendimiz.
 
+
+git branch -M main 
+git branch -v 
+git branch backend
+git branch 
