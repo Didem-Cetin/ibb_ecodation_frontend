@@ -31,7 +31,13 @@ git stash pop
 git stash drop stash@{0}  silmek için kendimiz.
 
 
+
 git branch -M main 
 git branch -v 
+NOT: branch öncesinde git add, git commit, git push yapalım
 git branch backend
-git branch 
+git checkout backend 
+git checkout main 
+git branch -a 
+git branch -D backend
+
