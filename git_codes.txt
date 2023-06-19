@@ -41,3 +41,5 @@ git checkout main
 git branch -a 
 git branch -D backend
 
+git merge frontend
+git merge --no-ff frontend
