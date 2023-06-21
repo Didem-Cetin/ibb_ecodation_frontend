@@ -40,6 +40,24 @@
       crossorigin="anonymous"
     />
 
+    <!-- jquery  -->
+
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+      integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
     <!-- external CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -89,23 +107,31 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+              <i class="fa-regular fa-user text-primary"></i>
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Login</a></li>
+                <li><a class="dropdown-item" href="#">Register</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </li>
               </ul>
             </li>
+           
+          </ul>
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <button class="btn btn-outline-success" onclick="darkMode()">
+                <i class="fa-solid fa-circle-half-stroke me-2"></i>
+              </button>
             </li>
           </ul>
+
           <form class="d-flex" role="search">
             <input
+              id="tags"
               class="form-control me-2"
               type="search"
               placeholder="Arama İçin..."
@@ -142,11 +168,47 @@
     <!-- End header  Codes -->
 
     <!-- start main codes -->
-    <main id="main_id"></main>
+    <main id="main_id">
+      <section>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          iusto, eum quidem consequatur repudiandae dolore ratione rerum quia
+          quas voluptatem sint ut adipisci porro culpa enim impedit error.
+          Aperiam, fuga? Placeat fugit molestias nostrum quae facilis a et iure
+          at vero asperiores! Doloribus, voluptatem quas perspiciatis, ipsam
+          possimus quos autem quidem voluptas reiciendis, facilis velit tempora
+          nemo tempore ullam? Possimus. Animi dolorum, repellat ad repellendus
+          placeat enim repudiandae quibusdam molestiae sapiente delectus maiores
+          harum dicta tempore, ipsum officia modi nesciunt alias. Assumenda
+          quidem nostrum eum error iure optio nam libero. Aut, sapiente non
+          voluptatibus aperiam illum animi numquam, molestiae, voluptas veniam
+          laudantium debitis labore distinctio natus voluptatum necessitatibus
+          quod ipsum quas odit laboriosam reprehenderit possimus quasi. Labore
+          doloribus tenetur voluptas? Aut distinctio earum hic, nemo eaque quae
+          asperiores id dolores magnam, reiciendis suscipit. Perferendis
+          eligendi id labore sequi ipsam unde non omnis impedit recusandae natus
+          ducimus voluptas ex, voluptatum quo? Quis architecto nostrum deleniti
+          earum dignissimos quae facere, rerum voluptatum laborum minima ducimus
+          tempora, aperiam, ad hic ipsam pariatur corporis aliquid vero modi
+          praesentium debitis. Sint saepe excepturi explicabo iusto! Dolorum
+          voluptas fugit laudantium amet dolores quam rem debitis totam earum
+          recusandae, mollitia eligendi cumque porro inventore nobis voluptatum
+          tempora repellat quo voluptatibus excepturi quaerat quas architecto
+          corrupti! Tempore, quae! Et a sed ipsam similique veniam, aut modi
+          minus doloribus praesentium fugit voluptatum, architecto eaque,
+          voluptatibus facere dicta ex. Nisi reprehenderit commodi itaque
+          tempora. Voluptates accusantium est dolores illum quas?
+        </p>
+      </section>
+    </main>
     <!-- End main Codes -->
 
     <!-- start footer codes -->
-    <footer id="footer_id"></footer>
+    <footer id="footer_id" class="bg-dark">
+      <div class="text-center p-5" id="copy_right">
+        2021- <span id="date_id"></span> &copy;Bütün Haklar Saklıdır
+      </div>
+    </footer>
     <!-- end footer codes -->
 
     <!-- End codes -->

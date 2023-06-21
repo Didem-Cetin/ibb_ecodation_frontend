@@ -11,6 +11,11 @@ Version : v.1
 
 /*  Root */
 
+:root{
+  --templateBgColor:rgb(43, 43, 43);
+}
+
+
 /*#########################################*/
 
 /* Common Property */
@@ -103,16 +108,29 @@ i {
 }
 
 /*#########################################*/
+/*  Navbar  */
+
+.dark_mode{
+  background-color: var(--templateBgColor);
+  color:#ffffff;
+}
+
+
 
 /*  HEADER  */
-
-header {
-  background-image: url(./img/header.jpg);
-  text-shadow: 2px 2px 2px red;
+header{
+  background-image: url("./img/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  z-index: -1;
-  height: 89.7vh;
-  padding-top: 4rem;
+  height:80vh;
+  padding-top:4rem;
+  }
+
+/*  FOOTER  */
+
+footer{
+  min-height: 10rem;
+  width: auto;
+  color: white;
 }
