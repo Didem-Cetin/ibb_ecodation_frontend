@@ -134,3 +134,16 @@ footer{
   width: auto;
   color: white;
 }
+
+/*  Back Top  */
+
+#back_top{
+position: fixed;
+right: 0;
+bottom: 0;
+background-color: rgb(122, 122, 156);
+}
+
+#back_top:hover{
+  opacity: 0.8;
+}
