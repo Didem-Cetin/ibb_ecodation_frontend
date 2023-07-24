@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" ></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" ></script>
+  </head>
+
+  <body class="container">
+    <h3 class="text-center text-primary display-4">JavaScript</h3>
+
+    <button class="btn btn-primary" onclick="eventFunction()">onclick</button>
+    <button class="btn btn-primary" ondblclick="eventFunction()">
+      ondblclick
+    </button>
+
+    <button class="btn btn-success" onmousewheel="eventFunction()">
+      onmousewheel
+    </button>
+    <button class="btn btn-danger" onmouseleave="eventFunction()">
+      onmouseleave
+    </button>
+    <button class="btn btn-danger" onmouseover="eventFunction()">
+      onmouseover
+    </button>
+    <br />
+    <br />
+
+    <button class="btn btn-danger" onkeydown="eventFunction()">
+      onkeydown
+    </button>
+    <button class="btn btn-danger" onkeyup="eventFunction()">onkeyup</button>
+    <br />
+    <br />
+    <p id="param_id" style="text-align: justify">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+      reprehenderit reiciendis voluptatibus, ducimus facere dolore libero itaque
+      vel maxime eius dignissimos accusamus saepe rem quos? Perferendis veniam
+      vero ipsam possimus. Quo obcaecati ipsa quod debitis. Repellat quia
+      tempora nihil. Voluptatem eos aut ex explicabo dicta! Expedita tempore et,
+      a, labore in maiores libero atque, exercitationem cumque esse illo sequi
+      facilis. Incidunt, consectetur? Qui sunt voluptatum a ipsam vero culpa
+      omnis unde. Impedit, deserunt. Rerum ea, quo magnam dolorum explicabo
+      perferendis ullam quos eum doloribus asperiores, incidunt quasi. Tempore,
+      quia minus? Cumque atque, recusandae provident soluta molestiae reiciendis
+      a voluptatum temporibus voluptatibus quos quaerat velit aliquid
+      consequatur dolorum accusamus impedit ut magnam vero earum illum, numquam
+      sit tempora fugit esse? Explicabo?
+    </p>
+
+    <button class="btn btn-primary" onclick="newDataDate()">Data</button>
+    <span id="text_data">...</span>
+    <br />
+    <br />
+    <!-- Dom örnek 1 -->
+
+    <p id="paragraf_id2" onclick="tiklandi()" onmouseover="uzerinde()">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+      tempora quae voluptate amet provident eligendi laborum, cumque aspernatur
+      at soluta ex similique reiciendis nobis dolorum libero sint! Odit, soluta
+      doloremque. Minus voluptatem cupiditate, ipsa perspiciatis, voluptate
+      itaque autem eaque eum tenetur corrupti tempora doloremque corporis
+      quibusdam in delectus consequuntur expedita adipisci recusandae.
+      Consequatur earum accusamus placeat itaque cumque, expedita recusandae?
+      Magni ducimus eius ut, tempora aperiam reprehenderit deleniti at inventore
+      possimus eaque delectus sequi quos aut tempore cumque, officia nihil
+      distinctio sapiente sit. Consequatur placeat explicabo esse? Tempore, id
+      similique!
+    </p>
+
+    <hr />
+    <hr />
+
+    <p id="dom_id" class="dom_class">Dom öğreniyorum</p>
+    <button class="btn btn-warning" onclick="domData2()">Dom Click</button>
+    <br /><br />
+    <!-- Dom örnek 2  -->
+    <button class="btn btn-success" onclick="outSite()">Out Site</button>
+
+    <hr />
+    <hr />
+     
+    <!-- Listener -->
+    <p id="parag_list">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ut eum
+      accusantium eveniet est saepe inventore ea quis consectetur. Earum quos,
+      dolore perferendis error numquam eligendi modi tenetur tempore pariatur.
+      Quibusdam sint molestiae et architecto laborum maiores expedita libero cum
+      iure eveniet dicta pariatur animi, saepe vero, illum temporibus nemo
+      blanditiis? Nesciunt laboriosam dignissimos quam vero rerum, unde quia
+      inventore. Exercitationem earum totam aperiam est eum aliquid temporibus
+      praesentium accusantium eligendi aliquam numquam ducimus, voluptatem
+      veritatis dolorem itaque, illum repellat minus provident reprehenderit
+      libero doloremque culpa amet repellendus. Eligendi, itaque?
+    </p>
+    Log Information:<span id="log_admin"></span>
+
+    <header>
+      <!-- place navbar here -->
+    </header>
+    <main></main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- external js -->
+    <script src="js/tutorial.js"></script>
+  </body>
+</html>

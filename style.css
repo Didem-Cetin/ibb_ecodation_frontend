@@ -11,10 +11,9 @@ Version : v.1
 
 /*  Root */
 
-:root{
-  --templateBgColor:rgb(43, 43, 43);
+:root {
+  --templateBgColor: rgb(43, 43, 43);
 }
-
 
 /*#########################################*/
 
@@ -27,13 +26,13 @@ Version : v.1
 }
 
 html {
-  font-size: 20px;
+  font-size: 14px;
+
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.2;
-  position: relative;
   position: relative;
 }
 
@@ -67,6 +66,16 @@ i {
   clear: both;
 }
 
+.myHeading {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-shadow: 0.4px -0.9px rgba(11, 11, 14, 0.9);
+  opacity: 0.7;
+  margin-top:2rem;
+}
+
 /* my special size */
 
 .fSize1 {
@@ -87,9 +96,9 @@ i {
 }
 
 /* Line-clamp */
-
-.line-clamp5 {
-  -webkit-line-clamp: 5;
+/* Bu css kodları mesela line-clamp4 için text 4 satırı geçerse 4 satıra kadar gösterilsin */
+.line-clamp4 {
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   display: -webkit-box;
   overflow: hidden;
@@ -106,30 +115,166 @@ i {
   display: -webkit-box;
   overflow: hidden;
 }
+.line-clamp20 {
+  -webkit-line-clamp: 20;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
 
 /*#########################################*/
 /*  Navbar  */
 
-.dark_mode{
+.nav-link {
+  color: #ffffff;
+  text-transform: uppercase;
+ font-size: 0.8rem;
+}
+
+.dark_mode {
   background-color: var(--templateBgColor);
-  color:#ffffff;
+  color: #ffffff;
+}
+
+ .dark {
+    margin-left: 4.5rem;
+
 }
 
 
 
+ #language_id {
+  
+   position: absolute;
+   right: 150px;
+    
+  
+}
+
+#userId {
+  position: absolute;
+  right: 195px;
+  
+}
+
+#aramaId{
+  margin-left: 3rem;
+}
+
+
+input[id="tags"] {
+  background-image: url(./img/searching.png);
+  background-color: white;
+  background-position: 7px 9px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-bottom: 5px;
+  font-size: small;
+  width: 150px;
+  height: 35px;
+}
+
 /*  HEADER  */
-header{
+header {
   background-image: url("./img/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  height:80vh;
-  padding-top:4rem;
-  }
+  height: 80vh;
+  padding-top: 4rem;
+}
+
+/* Messages */
+#messages {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#messages i {
+  /* color: rgb(38, 89, 119); */
+  font-size: 5rem;
+}
+
+#html5_id{
+  color: red;
+}
+#css3_id{
+  color:rgb(46, 46, 192);
+}
+#js_id{
+  color:rgb(255, 145, 0);
+}
+
+#reactjs_id{
+  color:rgba(46, 180, 241, 0.705);
+}
+
+#messages p {
+  color: rgb(51, 38, 38);
+}
+
+/* Parallax */
+#parallax {
+  background-color: transparent;
+  background-image: url(./img/parallax.jpg);
+  background-size: cover;
+  height: 35rem;
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#parallax > h2,
+p {
+  color: whitesmoke;
+}
+
+/* Newspaper */
+#newspaper {
+  height: 35rem;
+  padding: 1rem;
+  background-color: transparent;
+  background-image: url(./img/haberler.jpg);
+  background-size: cover;
+  height: 35rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#newspaper p,
+h2 {
+  color: rgb(209, 180, 180);
+  text-align: justify;
+}
+
+/*  BLOG  */
+
+#blog {
+  background-color: rgb(170, 202, 228);
+}
+
+.detail_Page {
+  overflow: visible; 
+  text-overflow: unset; 
+  display: block; 
+  -webkit-line-clamp: unset; 
+
+}
+
+/*  CONTACT  */
+
+#contact {
+  height: 40rem;
+  padding: 1.5rem;
+  background-image: url(./img/iletisim.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+}
 
 /*  FOOTER  */
 
-footer{
+footer {
   min-height: 10rem;
   width: auto;
   color: white;
@@ -137,13 +282,13 @@ footer{
 
 /*  Back Top  */
 
-#back_top{
-position: fixed;
-right: 0;
-bottom: 0;
-background-color: rgb(122, 122, 156);
+#back_top {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(122, 122, 156);
 }
 
-#back_top:hover{
+#back_top:hover {
   opacity: 0.8;
 }

@@ -26,3 +26,11 @@ $("#date_id").html(date);
 }
 
 newDate()
+
+// Main
+
+let detailPage=(blog1)=>{
+  let detailPageURL='detail.html?id='+blog1
+  window.location.href=detailPageURL;
+  
+}
